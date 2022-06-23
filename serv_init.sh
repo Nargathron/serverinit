@@ -7,3 +7,5 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 wget https://starship.rs/install.sh
 chmod +x install.sh
 ./install.sh --yes
+cp .zshrc ~/.zshrc
+logout
